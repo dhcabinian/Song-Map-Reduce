@@ -5,4 +5,3 @@ handlers:
 - url: /mapreduce(/.*)?
   script: mapreduce.main.APP
   login: admin
-

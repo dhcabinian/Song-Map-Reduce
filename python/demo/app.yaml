@@ -16,7 +16,7 @@ handlers:
 
 - url: .*
   script: main.app
-  login: required
+  login: admin
 
 includes:
 - mapreduce/include.yaml

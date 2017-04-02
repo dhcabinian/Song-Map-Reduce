@@ -1,0 +1,714 @@
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0
+Collecting GoogleAppEngineCloudStorageClient (from -r ./src/requirements.txt (line 1))
+Collecting GoogleAppEnginePipeline (from -r ./src/requirements.txt (line 2))
+Collecting Graphy (from -r ./src/requirements.txt (line 3))
+Collecting simplejson (from -r ./src/requirements.txt (line 4))
+Collecting mock (from -r ./src/requirements.txt (line 5))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting mox (from -r ./src/requirements.txt (line 6))
+Collecting pg8000 (from -r ./src/requirements.txt (line 7))
+  Using cached pg8000-1.10.6-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock->-r ./src/requirements.txt (line 5))
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting six>=1.9 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock->-r ./src/requirements.txt (line 5))
+  Using cached pbr-2.0.0-py2.py3-none-any.whl
+Installing collected packages: GoogleAppEngineCloudStorageClient, GoogleAppEnginePipeline, Graphy, simplejson, funcsigs, six, pbr, mock, mox, pg8000
+Successfully installed GoogleAppEngineCloudStorageClient-1.9.22.1 GoogleAppEnginePipeline-1.9.22.1 Graphy-1.0.0 funcsigs-1.0.2 mock-2.0.0 mox-0.5.3 pbr-2.0.0 pg8000-1.10.6 simplejson-3.10.0 six-1.10.0

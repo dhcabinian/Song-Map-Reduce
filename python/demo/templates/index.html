@@ -17,9 +17,10 @@
           <td>name</td>
           <td>uploaded on</td>
           <td>source</td>
-          <td>wordcount link</td>
-          <td>index link</td>
-          <td>phrases link</td>
+          <td>song_sales link</td>
+          <td>song_profit link</td>
+          <td>artist_songs link</td>
+          <td>artist_profit link</td>
         </tr>
         {% for item in items %}
         <tr>
@@ -29,18 +30,23 @@
           <td>{{ item.uploadedOn }}</td>
           <td>{{ item.source }}</td>
           <td>
-            {% if item.wordcount_link %}
-            <a href="{{ item.wordcount_link }}">wordcount</a>
+            {% if item.song_sales_link %}
+            <a href="{{ item.song_sales_link }}">song_sales</a>
             {% endif %}
           </td>
           <td>
-            {% if item.index_link %}
-            <a href="{{ item.index_link }}">index</a>
+            {% if item.song_profit_link %}
+            <a href="{{ item.song_profit_link }}">song_profit</a>
             {% endif %}
           </td>
           <td>
-            {% if item.phrases_link %}
-            <a href="{{ item.phrases_link }}">phrases</a>
+            {% if item.artist_songs_link %}
+            <a href="{{ item.artist_songs_link }}">artist_songs</a>
+            {% endif %}
+          </td>
+          <td>
+            {% if item.artist_profit_link %}
+            <a href="{{ item.artist_profit_link }}">artist_profit</a>
             {% endif %}
           </td>
         </tr>
@@ -76,9 +82,10 @@
         <br />
         <table>
           <tr>
-            <td><input type="submit" id="word_count" name="word_count" value="Word Count" disabled="true"></td>
-            <td><input type="submit" id="index" name="index" value="Index" disabled="true"></td>
-            <td><input type="submit" id="phrases" name="phrases" value="Phrases" disabled="true"></td>
+            <td><input type="submit" id="song_sales" name="song_sales" value="song_sales" disabled="true"></td>
+            <td><input type="submit" id="song_profit" name="song_profit" value="song_profit" disabled="true"></td>
+            <td><input type="submit" id="artist_songs" name="artist_songs" value="artist_songs" disabled="true"></td>
+            <td><input type="submit" id="artist_profit" name="artist_profit" value="artist_profit" disabled="true"></td>
           </tr>
         </table>
       </form>
