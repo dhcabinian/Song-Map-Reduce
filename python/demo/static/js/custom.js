@@ -31,4 +31,8 @@ function updateForm(filekey, blobkey, filename) {
   $('#song_profit').removeAttr('disabled');
   $('#artist_songs').removeAttr('disabled');
   $('#artist_profit').removeAttr('disabled');
+  $('#genre_song_sales').removeAttr('disabled');
+  $('#genre_song_profit').removeAttr('disabled');
+  $('#genre_artist_songs').removeAttr('disabled');
+  $('#genre_artist_profit').removeAttr('disabled');
 }
