@@ -35,6 +35,7 @@ import logging
 import re
 import urllib
 import webapp2
+import itertools
 
 from google.appengine.ext import blobstore
 from google.appengine.ext import db
@@ -49,6 +50,7 @@ from mapreduce import base_handler
 from mapreduce import mapreduce_pipeline
 from mapreduce import operation as op
 from mapreduce import shuffler
+from mapreduce import output_writers
 
 
 class FileMetadata(db.Model):
@@ -81,6 +83,7 @@ class FileMetadata(db.Model):
     genre_song_profit_link = db.StringListProperty()
     genre_artist_songs_link = db.StringListProperty()
     genre_artist_profit_link = db.StringListProperty()
+    common_purchase_link = db.StringListProperty()
 
 
 
@@ -190,8 +193,12 @@ class IndexHandler(webapp2.RequestHandler):
             pipeline = GenreArtistSongsPipeline(filekey, blob_key)
         elif self.request.get("genre_artist_profit"):
             pipeline = GenreArtistProfitPipeline(filekey, blob_key)
-
-
+        elif self.request.get("common_purchase"):
+            print "Hello from common_purchase\n"
+            pipeline = CommonPurchasePipeline(filekey, blob_key)
+        else:
+            pipeline = CommonPurchasePipeline(filekey, blob_key)
+        print "Pipeline Start\n"
         pipeline.start()
         self.redirect(pipeline.base_path + "/status?root=" + pipeline.pipeline_id)
 
@@ -392,6 +399,111 @@ def genre_artist_profit_reduce(key, values):
         total_song_profit += float(value)
     yield "%s; %f\n" % (key, total_song_profit)
 
+def combine_purchase_map(data):
+    (entry, text_fn) = data
+    text = text_fn()
+    logging.debug("Song_sales_map got %s", text)
+    purchases = split_into_purchase(text)
+    if purchases is not None:
+        for p in purchases:
+            purchase = split_into_data(p)
+            if purchase is not None:
+                song = purchase[2] + "," + purchase[3] + "," + purchase[4] + "\t"
+                matching_purchase = purchase[0] + purchase[1]
+                yield(matching_purchase, song)
+
+
+def combine_purchase_reduce(key, values):
+    alphabetical_values = sorted(values)
+    alphabetical_string = ''.join(alphabetical_values)
+    yield key + ";" + alphabetical_string + "\n"
+
+def create_all_purchase_pairs(song_list):
+    if "\n" in song_list:
+        song_list.remove("\n")
+    if '' in song_list:
+        song_list.remove('')
+    if len(song_list) > 1:
+        pairs_list = itertools.combinations(song_list, 2)
+        return pairs_list
+    else:
+        return None
+
+def common_purchase_map(data):
+    # BlobstoreLineInputReader.next() returns a tuple
+    purchases = data
+    if purchases is not None:
+        #purchase_list = purchases.split("\n")
+        for purchase in purchases:
+            #print purchase
+            #print "\n"
+            for purchase_formatted in purchase.split("\n"):
+                #purchase_formatted = re.sub(r'\r\n',"",purchase)
+                if (re.search('[0-9]', purchase_formatted)):
+                    user, song_list_string = purchase_formatted.split(";")
+                    #song_list_string = re.sub(r'\r\n',"",song_list_string)
+                    song_list = song_list_string.split("\t")
+                    pairs_list = create_all_purchase_pairs(song_list)
+                    if pairs_list is not None:
+                        for pair in pairs_list:
+                            #print pair
+                            yield(pair, "")
+            else:
+                pass
+
+def common_purchase_reduce(key, values):
+    # Create the reverse index entry
+    yield "%s; %d\n" % (key, len(values))
+
+class GCSMapperParams(base_handler.PipelineBase):
+    def run(self, GCSPath):
+        bucket_name = app_identity.get_default_gcs_bucket_name()
+        return {
+                "input_reader": {
+                "bucket_name": bucket_name,
+                "objects": [path.split('/', 2)[2] for path in GCSPath],
+        }
+}
+
+class CommonPurchasePipeline(base_handler.PipelineBase):
+    def run(self, filekey, blobkey):
+        bucket_name = app_identity.get_default_gcs_bucket_name()
+        combine_purchase_blob_key = yield mapreduce_pipeline.MapreducePipeline(
+                "combine_purchase",
+                "main.combine_purchase_map",
+                "main.combine_purchase_reduce",
+                "mapreduce.input_readers.BlobstoreZipInputReader",
+                "mapreduce.output_writers.GoogleCloudStorageOutputWriter",
+                mapper_params={
+                        "blob_key": blobkey,
+                },
+                reducer_params={
+                        "output_writer": {
+                                "bucket_name": bucket_name,
+                                "content_type": "text/plain",
+                        }
+                },
+                shards=16)
+
+        output = yield mapreduce_pipeline.MapreducePipeline(
+                "common_purchase",
+                "main.common_purchase_map",
+                "main.common_purchase_reduce",
+                "mapreduce.input_readers.GoogleCloudStorageInputReader",
+                "mapreduce.output_writers.GoogleCloudStorageOutputWriter",
+                # Pass output from first job as input to second job
+                mapper_params= (yield GCSMapperParams(combine_purchase_blob_key)),
+                reducer_params={
+                        "output_writer": {
+                                "bucket_name": bucket_name,
+                                "content_type": "text/plain",
+                        }
+                },
+                shards=16)
+
+        yield StoreOutput("common_purchase", filekey, output)
+
+
 class SongSalesPipeline(base_handler.PipelineBase):
     """A pipeline to run song sales count.
 
@@ -507,7 +619,6 @@ class ArtistProfitPipeline(base_handler.PipelineBase):
                 },
                 shards=16)
         yield StoreOutput("artist_profit", filekey, output)
-
 
 class GenreSongSalesPipeline(base_handler.PipelineBase):
     """A pipeline to run song sales count.
@@ -672,6 +783,8 @@ class StoreOutput(base_handler.PipelineBase):
             m.genre_artist_songs_link = url_path
         elif mr_type == "genre_artist_profit":
             m.genre_artist_profit_link = url_path
+        elif mr_type == "common_purchase":
+            m.common_purchase_link = url_path
         m.put()
 
 class UploadHandler(blobstore_handlers.BlobstoreUploadHandler):
