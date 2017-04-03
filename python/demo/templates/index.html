@@ -25,7 +25,7 @@
           <td>genre_song_profit link</td>
           <td>genre_artist_songs link</td>
           <td>genre_artist_profit link</td>
-          <td>common_purchase link</td>
+          <td>find_most_common link</td>
         </tr>
         {% for item in items %}
         <tr>
@@ -91,9 +91,9 @@
             {% endif %}
           </td>
           <td>
-            {% if item.common_purchase_link %}
-              {% for link in item.common_purchase_link %}
-                <a href="{{ link }}">common_purchase</a>
+            {% if item.find_most_common_link %}
+              {% for link in item.find_most_common_link %}
+                <a href="{{ link }}">find_most_common</a>
               {% endfor %}
             {% endif %}
           </td>
@@ -138,7 +138,7 @@
             <td><input type="submit" id="genre_song_profit" name="genre_song_profit" value="genre_song_profit" disabled="true"></td>
             <td><input type="submit" id="genre_artist_songs" name="genre_artist_songs" value="genre_artist_songs" disabled="true"></td>
             <td><input type="submit" id="genre_artist_profit" name="genre_artist_profit" value="genre_artist_profit" disabled="true"></td>
-            <td><input type="submit" id="common_purchase" name="" value="common_purchase" disabled="true"></td>
+            <td><input type="submit" id="find_most_common" name="" value="find_most_common" disabled="true"></td>
           </tr>
         </table>
       </form>

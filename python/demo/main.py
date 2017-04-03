@@ -83,7 +83,7 @@ class FileMetadata(db.Model):
     genre_song_profit_link = db.StringListProperty()
     genre_artist_songs_link = db.StringListProperty()
     genre_artist_profit_link = db.StringListProperty()
-    common_purchase_link = db.StringListProperty()
+    find_most_common_link = db.StringListProperty()
 
 
 
@@ -193,11 +193,11 @@ class IndexHandler(webapp2.RequestHandler):
             pipeline = GenreArtistSongsPipeline(filekey, blob_key)
         elif self.request.get("genre_artist_profit"):
             pipeline = GenreArtistProfitPipeline(filekey, blob_key)
-        elif self.request.get("common_purchase"):
+        elif self.request.get("find_most_common"):
             print "Hello from common_purchase\n"
-            pipeline = CommonPurchasePipeline(filekey, blob_key)
+            pipeline = FindMostCommonPipeline(filekey, blob_key)
         else:
-            pipeline = CommonPurchasePipeline(filekey, blob_key)
+            pipeline = FindMostCommonPipeline(filekey, blob_key)
         print "Pipeline Start\n"
         pipeline.start()
         self.redirect(pipeline.base_path + "/status?root=" + pipeline.pipeline_id)
@@ -447,13 +447,49 @@ def common_purchase_map(data):
                     if pairs_list is not None:
                         for pair in pairs_list:
                             #print pair
-                            yield(pair, "")
+                            yield(pair[0]+";"+pair[1], "")
             else:
                 pass
 
 def common_purchase_reduce(key, values):
     # Create the reverse index entry
-    yield "%s; %d\n" % (key, len(values))
+    yield "%s;%d\n" % (key, len(values))
+
+
+def find_most_common_map(data):
+#('Different For Girls,Dierks Bentley,Black', 'Vice,Miranda Lambert,The Weight of These Wings');93
+    pairs_list = data
+    if pairs_list is not None:
+        for pair in pairs_list:
+            for pair_formatted in pair.split("\n"):
+                if (re.search('[0-9]', pair_formatted)):
+                    #print "Pair: "
+                    #print pair_formatted
+                    song1, song2, num_purchased = pair_formatted.split(";")
+                    yield(song1, num_purchased + ";" + song2)
+                    yield(song2, num_purchased + ";" + song1)
+                else:
+                    pass
+
+
+def find_most_common_reduce(key, values):
+    print "Values: "
+    print values
+    max_num_purchased = None
+    max_song =  None
+    for value in values:
+        num_purchased_string, song = value.split(";")
+        num_purchased = int(num_purchased_string)
+        if song is None:
+            max_song = song
+            max_num_purchased = num_purchased
+        else:
+            if num_purchased > max_num_purchased:
+                max_song = song
+                max_num_purchased = num_purchased
+            # elif num_purchased == max_num_purchased:
+            #     max_song = []
+    yield "%s;%s;%d\n" % (key, max_song, max_num_purchased)
 
 class GCSMapperParams(base_handler.PipelineBase):
     def run(self, GCSPath):
@@ -465,10 +501,10 @@ class GCSMapperParams(base_handler.PipelineBase):
         }
 }
 
-class CommonPurchasePipeline(base_handler.PipelineBase):
+class FindMostCommonPipeline(base_handler.PipelineBase):
     def run(self, filekey, blobkey):
         bucket_name = app_identity.get_default_gcs_bucket_name()
-        combine_purchase_blob_key = yield mapreduce_pipeline.MapreducePipeline(
+        combine_purchase_key = yield mapreduce_pipeline.MapreducePipeline(
                 "combine_purchase",
                 "main.combine_purchase_map",
                 "main.combine_purchase_reduce",
@@ -485,14 +521,14 @@ class CommonPurchasePipeline(base_handler.PipelineBase):
                 },
                 shards=16)
 
-        output = yield mapreduce_pipeline.MapreducePipeline(
+        song_pairs = yield mapreduce_pipeline.MapreducePipeline(
                 "common_purchase",
                 "main.common_purchase_map",
                 "main.common_purchase_reduce",
                 "mapreduce.input_readers.GoogleCloudStorageInputReader",
                 "mapreduce.output_writers.GoogleCloudStorageOutputWriter",
                 # Pass output from first job as input to second job
-                mapper_params= (yield GCSMapperParams(combine_purchase_blob_key)),
+                mapper_params= (yield GCSMapperParams(combine_purchase_key)),
                 reducer_params={
                         "output_writer": {
                                 "bucket_name": bucket_name,
@@ -501,7 +537,24 @@ class CommonPurchasePipeline(base_handler.PipelineBase):
                 },
                 shards=16)
 
-        yield StoreOutput("common_purchase", filekey, output)
+        most_purchased = yield mapreduce_pipeline.MapreducePipeline(
+                "find_most_common",
+                "main.find_most_common_map",
+                "main.find_most_common_reduce",
+                "mapreduce.input_readers.GoogleCloudStorageInputReader",
+                "mapreduce.output_writers.GoogleCloudStorageOutputWriter",
+                # Pass output from first job as input to second job
+                mapper_params= (yield GCSMapperParams(song_pairs)),
+                reducer_params={
+                        "output_writer": {
+                                "bucket_name": bucket_name,
+                                "content_type": "text/plain",
+                        }
+                },
+
+                shards=16)
+
+        yield StoreOutput("find_most_common", filekey, most_purchased)
 
 
 class SongSalesPipeline(base_handler.PipelineBase):
@@ -783,8 +836,8 @@ class StoreOutput(base_handler.PipelineBase):
             m.genre_artist_songs_link = url_path
         elif mr_type == "genre_artist_profit":
             m.genre_artist_profit_link = url_path
-        elif mr_type == "common_purchase":
-            m.common_purchase_link = url_path
+        elif mr_type == "find_most_common":
+            m.find_most_common_link = url_path
         m.put()
 
 class UploadHandler(blobstore_handlers.BlobstoreUploadHandler):
