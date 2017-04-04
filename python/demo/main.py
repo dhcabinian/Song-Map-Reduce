@@ -473,8 +473,8 @@ def find_most_common_map(data):
 
 
 def find_most_common_reduce(key, values):
-    print "Values: "
-    print values
+    #print "Values: "
+    #print values
     max_num_purchased = None
     max_song =  None
     for value in values:
@@ -817,8 +817,8 @@ class StoreOutput(base_handler.PipelineBase):
             new_path ="/blobstore/" + blobstore_gs_key
             url_path = url_path + [new_path]
 
-        print "url_path"
-        print url_path
+        #print "url_path"
+        #print url_path
 
         if mr_type == "song_sales":
             m.song_sales_link = url_path
